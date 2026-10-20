@@ -169,13 +169,19 @@ prevBtn.addEventListener("click", () => {
 });
 
 nextBtn.addEventListener("click", () => {
-  if (currentIndex < questions.length - 1) {
-    currentIndex++;
-    showQuestion();
-  } else {
-    calculateScore();
-  }
+    if (userAnswers[currentIndex] === null) {
+        alert("Please select an option before proceeding!");
+        return;
+    }
+
+    if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        showQuestion();
+    } else {
+        calculateScore();
+    }
 });
+
 
 // final score
 function calculateScore() {
