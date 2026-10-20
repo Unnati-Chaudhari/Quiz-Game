@@ -488,3 +488,416 @@ h3 {
   color: var(--correct);
    font-family: "Courier New", Courier, monospace;
 }
+
+
+/* adding media queries for responsiveness */
+
+@media (min-width: 30.0625rem) and (max-width: 37.5rem) {
+  .quiz_card {
+    width: 90%;
+  }
+
+  .content_card {
+    height: 75vh;
+    width: 85vw;
+    /* background-color: lightblue; */
+  }
+
+  .heading_div {
+    height: auto;
+    width: 85%;
+  }
+
+  .info_div {
+    height: 30vh;
+    width: 75vw;
+    
+  }
+
+  .quiz_challenge {
+    height: 15vh;
+    width: 75vw;
+  }
+
+  .challenge {
+    height: 13vh;
+    width: 75vw;
+    /* background-color: lightblue; */
+  }
+
+  .challenge_img {
+    width: 10vw;
+    
+  }
+
+  .challenge_info {
+    width: 60vw;
+  }
+
+  .question_card {
+    height: 75vh;
+    width: 85vw;
+    /* background-color: lightblue; */
+  }
+
+  .nav {
+    height: 12vh;
+    width: 85vw;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .que_num {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .easy {
+    width: 85vw;
+    height: 3vh;
+    margin-top: 1rem;
+  }
+
+  #easy {
+    height: 3.2vh;
+  width: 11vw;
+  }
+
+  .que {
+    height: 3vh;
+    width: 85vw;
+    margin-top: 0.8rem;
+    /* background-color: lightblue; */
+  }
+
+  .que_statement {
+    width: 85vw;
+  }
+
+  .que_statement h2 {
+    font-size: 1.3rem;
+  }
+
+  .que_statement p {
+    margin-top: 0.3rem;
+  }
+
+  .option {
+    height: 9vh;
+    width: 84vw;
+  }
+
+  .letter {
+    height: 5vh;
+    width: 7vw;
+  }
+
+  .button_div {
+    width: 84vw;
+  }
+
+  .next,
+.prev {
+    height: 6vh;
+    width: 22vw;
+}
+
+
+
+.score_content {
+    height: 75vh;
+    width: 83vw;
+    /* background-color: lightcyan; */
+}
+}
+
+
+@media (max-width: 30rem) {
+  .quiz_card {
+    width: 90%;
+  }
+
+  .content_card {
+    height: 75vh;
+    width: 90vw;
+    /* background-color: lightblue; */
+  }
+
+  .heading_div {
+    height: auto;
+    width: 85%;
+  }
+
+  .info_div {
+    height: 30vh;
+    width: 80vw;
+    
+  }
+
+  .start_quiz {
+    width: 50vw;
+  }
+
+  .quiz_challenge {
+    height: 15vh;
+    width: 75vw;
+  }
+
+  .challenge {
+    height: 13vh;
+    width: 75vw;
+    /* background-color: lightblue; */
+  }
+
+  .challenge_img {
+    width: 10vw;
+    
+  }
+
+  .challenge_info {
+    width: 60vw;
+  }
+
+  .question_card {
+    height: 79vh;
+    width: 85vw;
+    /* background-color: lightblue; */
+  }
+
+  .nav {
+    height: 10vh;
+    width: 85vw;
+  }
+
+  .logo h1 {
+    font-size: 1.7rem;
+  }
+
+  .que_num {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+  }
+
+  .easy {
+    width: 85vw;
+    height: 3vh;
+    margin-top: 1rem;
+  }
+
+  #easy {
+    height: 3.2vh;
+  width: 18vw;
+  }
+
+  .que {
+    width: 85vw;
+    margin-top: 0.5rem;
+  }
+
+
+.question_no {
+    font-size: 1.3rem;
+}
+
+  .que_statement {
+    height: 15vh;
+    width: 85vw;
+    margin-top: 0.6rem;
+    /* background-color: lightblue; */
+  }
+
+  .que_statement h2 {
+    font-size: 1.2rem;
+  }
+
+  .que_statement p {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+  }
+
+  .option {
+    height: 8vh;
+    width: 84vw;
+  }
+
+  .letter {
+    height: 5vh;
+    width: 12vw;
+  }
+
+  .opt {
+    font-size: 1rem;
+  }
+
+  .button_div {
+    width: 84vw;
+  }
+
+  .next,
+.prev {
+    height: 5vh;
+    width: 30vw;
+    margin-bottom: 1rem;
+}
+
+
+
+.score_content {
+    height: 68vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightcyan; */
+}
+
+.scr_div {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.scr_heading {
+  font-size: 1.7rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.score_buttons {
+  margin-top: 1rem;
+}
+
+.scr_msg {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.scr_submsg {
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+}
+
+@media (min-width: 37.5625rem) and (max-width: 48rem) {
+  .quiz_card {
+    width: 90%;
+  }
+
+  .content_card {
+    height: 75vh;
+    width: 85vw;
+    /* background-color: lightblue; */
+  }
+
+  .heading_div {
+    height: auto;
+    width: 85%;
+  }
+
+  .info_div {
+    height: 30vh;
+    width: 75vw;
+    
+  }
+
+  .quiz_challenge {
+    height: 15vh;
+    width: 75vw;
+  }
+
+  .challenge {
+    height: 13vh;
+    width: 75vw;
+    /* background-color: lightblue; */
+  }
+
+  .challenge_img {
+    width: 10vw;
+    
+  }
+
+  .challenge_info {
+    width: 60vw;
+  }
+
+  .question_card {
+    height: 75vh;
+    width: 85vw;
+    /* background-color: lightblue; */
+  }
+
+  .nav {
+    height: 12vh;
+    width: 85vw;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .que_num {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .easy {
+    width: 85vw;
+    height: 3vh;
+    margin-top: 1rem;
+  }
+
+  #easy {
+    height: 3.2vh;
+  width: 11vw;
+  }
+
+  .que {
+    height: 3vh;
+    width: 85vw;
+    margin-top: 0.8rem;
+    /* background-color: lightblue; */
+  }
+
+  .que_statement {
+    width: 85vw;
+  }
+
+  .que_statement h2 {
+    font-size: 1.3rem;
+  }
+
+  .que_statement p {
+    margin-top: 0.3rem;
+  }
+
+  .option {
+    height: 9vh;
+    width: 84vw;
+  }
+
+  .letter {
+    height: 5vh;
+    width: 7vw;
+  }
+
+  .button_div {
+    width: 84vw;
+  }
+
+  .next,
+.prev {
+    height: 6vh;
+    width: 22vw;
+}
+
+
+
+.score_content {
+    height: 75vh;
+    width: 83vw;
+    /* background-color: lightcyan; */
+}
+}
