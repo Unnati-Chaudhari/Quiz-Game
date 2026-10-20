@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4- Quiz game</title>
+  </head>
+  <body>
+    <div class="quiz_card">
+      <main class="page_one">
+        <div class="content_card">
+          <div class="heading_div">
+            <h1>Quizzzzz</h1>
+            <p class="statement">Want to check your coding knowledge???</p>
+          </div>
+
+          <div class="info_div">
+            <div class="quiz_challenge">
+              <div class="challenge">
+                <div class="challenge_img"></div>
+                <div class="challenge_info">
+                  <h3>Quiz Challenge</h3>
+                  <p id="languages">
+                    HTML <i class="fa-solid fa-circle"></i> CSS
+                    <i class="fa-solid fa-circle"></i> JAVASCRIPT
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="quiz_info">
+              <div class="info_item">
+                <i class="fa-solid fa-list-check"></i>
+                <h4>10</h4>
+                <p>Questions</p>
+              </div>
+
+              <div class="info_item">
+                <i class="fa-regular fa-clock"></i>
+                <h4>30 sec</h4>
+                <p>Per Question</p>
+              </div>
+
+              <div class="info_item">
+                <i class="fa-solid fa-gauge-high"></i>
+                <h4>Easy</h4>
+                <p>Difficulty</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="start_quiz">Start Quiz</button>
+        </div>
+      </main>
+
+      <main class="page_two">
+        <div class="question_card">
+          <div class="nav">
+            <div class="logo"><h1>Quizzzzz</h1></div>
+            <div class="que_num"><span class="curr_que">1</span>/10</div>
+          </div>
+          <div class="easy">
+            <p id="easy">EASY</p>
+            <div class="timer">
+              <!-- <i class="fa-regular fa-clock"></i><span id="timer"></span> -->
+            </div>
+          </div>
+
+          <div class="que">
+            <p class="question_no">Question No. 01</p>
+          </div>
+          <div class="que_statement">
+            <h2 class="que_text"></h2>
+            <p>Choose the correct answer from the options below</p>
+          </div>
+
+          <div class="option one">
+            <div class="letter">A</div>
+            <p class="opt"></p>
+          </div>
+          <div class="option two">
+            <div class="letter">B</div>
+            <p class="opt"></p>
+          </div>
+          <div class="option three">
+            <div class="letter">C</div>
+            <p class="opt"></p>
+          </div>
+          <div class="option four">
+            <div class="letter">D</div>
+            <p class="opt"></p>
+          </div>
+
+          <div class="button_div">
+            <button class="prev" id="prev_btn">Previous</button>
+            <button class="next" id="next_btn">Next</button>
+          </div>
+        </div>
+      </main>
+
+      <main class="score_card">
+        <div class="score_content">
+          <h1 class="congrats">Quiz Completed! 🎉</h1>
+
+          <p class="scr_heading">Your Score</p>
+
+          <div class="scr_div">0/10</div>
+
+          <p class="scr_msg">Keep learning! 🚀</p>
+          <p class="scr_submsg">Every question makes you better.</p>
+
+          <div class="score_buttons">
+            <button class="restart_btn">Try Again</button>
+            <button class="home_btn">Home</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
